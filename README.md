@@ -59,10 +59,15 @@
 
 
 ## Goal and LLM Agents
-The goal of this tutorial is to demonstrate how to build a chatbot for a restaurant that can can help customers with their orders and food ingredients. 
+The goal of this tutorial is to demonstrate how to build a chatbot for a restaurant that can can help customers with their orders and food ingredients.
+The difference of this chatbot is it can speak with you.It receives voice (speech to text) and replies in a conversational way.
+
 In this example , we are using Langchain Agents.The core idea of agents is to use an LLM to choose a sequence of actions to take. In chains, a sequence of actions is hardcoded (in code).
+
 In agents, a language model is used as a reasoning engine to determine which actions to take and in which order.
 
 ## Demo 
 
- <video src="waiter4.mp4" controls title="Demo"></video>
+You can see how it works in this video: (waiter.mp4)
+
+<video src="waiter.mp4" controls title="Waiter"></video>
